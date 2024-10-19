@@ -1,0 +1,29 @@
+.icon {
+  font-size: 35px;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.icon:hover {
+  color: #c084fc;
+}
+
+.iconSmall {
+  font-size: 28px;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.iconSmall:hover {
+  color: #c084fc;
+}
+
+.iconLarge {
+  font-size: 75px;
+  color: #c084fc;
+  transition: all 200ms ease-in-out;
+}
+
+.iconLarge:hover {
+  color: white;
+}
