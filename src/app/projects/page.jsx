@@ -67,23 +67,30 @@ export default function ProjectsPage() {
         </Card>
         <Card className="bg-black text-white p-8 border rounded-xl border-purple-500">
           <CardBody>
-            <Link href="https://filmville.vercel.app" isExternal={true}>
-              <Image alt="preview for project" src="/images/filmville.png" />
+            <Link
+              href="chatter-one-brown.vercel.app
+"
+              isExternal={true}
+            >
+              <Image alt="preview for project" src="/images/chatter.png" />
             </Link>
           </CardBody>
           <CardHeader className="grid text-center">
-            <h4 className="text-purple-300">Filmville</h4>
+            <h4 className="text-purple-300">Discuss</h4>
             <div class="my-4 border-t border-gray-700"></div>
             <p>
-              Front-end web application that gives users the ability to find
-              streaming availability for all movies and TV series. App also
-              provides imdB ratings, casts, trailers and more.
+              Full-stack blog website. Gives users the ability to start
+              conversations about anything and everything. App is build with
+              Next.js and PostgreSQL.
             </p>
             <div className="my-4 border-t border-gray-700"></div>
             <div className="flex flex-wrap gap-1 justify-center">
               <FaHtml5 className={styles.iconSmall} />
               <FaCss3Alt className={styles.iconSmall} />
               <IoLogoJavascript className={styles.iconSmall} />
+              <RiNextjsFill className={styles.iconSmall} />
+              <RiTailwindCssFill className={styles.iconSmall} />
+              <SiPostgresql className={styles.iconSmall} />
             </div>
           </CardHeader>
         </Card>
