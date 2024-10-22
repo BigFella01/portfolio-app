@@ -85,6 +85,7 @@ export default function NavBar() {
           <Link
             className={pathname === "/projects" ? activeStyles : normalStyles}
             href="/projects"
+            onPress={() => setIsMenuOpen(!isMenuOpen)}
           >
             Projects
           </Link>
@@ -93,6 +94,7 @@ export default function NavBar() {
           <Link
             className={pathname === "/about" ? activeStyles : normalStyles}
             href="/about"
+            onPress={() => setIsMenuOpen(!isMenuOpen)}
           >
             About
           </Link>
@@ -101,6 +103,7 @@ export default function NavBar() {
           <Link
             className={pathname === "/resume" ? activeStyles : normalStyles}
             href="/resume"
+            onPress={() => setIsMenuOpen(!isMenuOpen)}
           >
             Resume
           </Link>
@@ -109,6 +112,7 @@ export default function NavBar() {
           <Link
             className={pathname === "/contact" ? activeStyles : normalStyles}
             href="/contact"
+            onPress={() => setIsMenuOpen(!isMenuOpen)}
           >
             Contact
           </Link>
