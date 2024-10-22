@@ -75,8 +75,7 @@ export default function ProjectsPage() {
         <Card className="bg-black text-white p-8 border rounded-xl border-purple-500">
           <CardBody>
             <Link
-              href="https://chatter-one-brown.vercel.app
-"
+              href="https://chatter-one-brown.vercel.app"          
               isExternal={true}
             >
               <Image alt="preview for project" src="/images/chatter.png" />
