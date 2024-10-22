@@ -15,9 +15,6 @@ export default function Footer() {
       >
         <FaLinkedin className={styles.icon} />
       </Link>
-      <Link isExternal={true} href="https://github.com/BigFella01">
-        <FaGithub className={styles.icon} />
-      </Link>
     </footer>
   );
 }
