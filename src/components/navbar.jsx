@@ -1,6 +1,4 @@
 "use client";
-
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import {
@@ -12,6 +10,7 @@ import {
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
+import { Link } from "@nextui-org/react";
 import { useState } from "react";
 
 export default function NavBar() {
