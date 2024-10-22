@@ -2,7 +2,7 @@ import Image from "next/image";
 import HeroGraphic from "../../public/images/react-native-programmer.svg";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
@@ -31,7 +31,7 @@ export default function Home() {
         <div className="flex justify-center gap-4 flex-wrap">
           <FaHtml5 className={styles.iconLarge} />
           <FaCss3Alt className={styles.iconLarge} />
-          <IoLogoJavascript className={styles.iconLarge} />
+          <BiLogoTypescript className={styles.iconLarge} />
           <RiTailwindCssFill className={styles.iconLarge} />
           <FaReact className={styles.iconLarge} />
           <RiNextjsFill className={styles.iconLarge} />
