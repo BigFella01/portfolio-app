@@ -131,17 +131,16 @@ export default function ResumePage() {
 
       <h3 className="mt-6 text-lg font-semibold">Projects</h3>
       <div className="mt-2">
-        <p className="font-medium">Filmville</p>
+        <p className="font-medium">Discuss</p>
         <Link
-          href="https://filmville.vercel.app"
+          href="https://chatter-one-brown.vercel.app"
           className="text-purple-500 hover:underline"
           isExternal
         >
-          https://filmville.vercel.app
+          https://chatter-one-brown.vercel.app
         </Link>
         <p className="text-gray-500">
-          Web application with HTML, CSS, and vanilla JavaScript that provides
-          movie and TV show information.
+          Full-stack web application that enables users to have conversations about anything. Features OAuth 2.0 login with Google
         </p>
 
         <p class="font-medium mt-4">Cruise Control</p>
