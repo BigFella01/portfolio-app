@@ -5,7 +5,7 @@ export default function ResumePage() {
     <div className="px-8 py-8 my-8 max-w-[1024px] w-full mx-auto">
       <div className="text-center">
         <h1 className="text-2xl font-bold">Hayden Jenkins</h1>
-        <h2 classname="text-xl text-gray-500">Full-Stack Web Developer</h2>
+        <h2 classname="text-xl text-gray-500">Cloud Engineer</h2>
         <p className="mt-2 text-gray-500">
           (731) 879 9189 | Haydenj637@gmail.com |
           <Link
@@ -30,9 +30,11 @@ export default function ResumePage() {
           University of Massachusetts Lowell, Lowell, MA
         </p>
         <p>Bachelor’s Degree, Information Technology</p>
-        <p className="text-gray-500">September 2024 - Present</p>
+        <p className="text-gray-500">September 2024 - December 2025</p>
 
-        <p className="font-medium mt-2">Pensacola State College, Pensacola, FL</p>
+        <p className="font-medium mt-2">
+          Pensacola State College, Pensacola, FL
+        </p>
         <p>Associate’s Degree, Business Administration</p>
         <p className="text-gray-500">August 2019 - May 2022</p>
 
@@ -45,6 +47,44 @@ export default function ResumePage() {
         PROFESSIONAL EXPERIENCE
       </h3>
       <div className="mt-2">
+        <p className="font-medium">UMass Chan Medical School, Worcester, MA</p>
+        <p>Associate Cloud Engineer</p>
+        <p className="text-gray-500">Feb 2025 - Present</p>
+        <ul className="list-disc list-inside mt-1 text-gray-500">
+          <li>
+            Rapidly acquiring and applying expertise in AWS services, Terraform
+            for Infrastructure as Code (IaC), YAML-based CI/CD pipelines, Docker
+            containerization, serverless architecture, and core networking
+            concepts to design, deploy, and maintain production-grade cloud
+            infrastructure.
+          </li>
+          <li>
+            Creating and managing AWS deployments, including provisioning EC2
+            instances, configuring security groups, connecting to instances via
+            SSH or Session Manager, installing required software/packages, and
+            running automation scripts for setup and maintenance.
+          </li>
+          <li>
+            Building and enhancing full-stack serverless backends using AWS
+            Lambda, API Gateway, and related services, while integrating
+            front-end interfaces to support internal tools and research
+            workflows.
+          </li>
+          <li>
+            Developing, optimizing, and troubleshooting CI/CD pipelines
+            (YAML-based) for automated builds, testing, deployments, and
+            infrastructure provisioning, ensuring consistent and repeatable
+            cloud resource management.
+          </li>
+          <li>
+            Maintaining and securing cloud environments in compliance with
+            institutional policies, best practices for medical/research data
+            handling, and AWS security standards—performing tasks such as
+            monitoring resource usage, applying updates, and implementing
+            cost-optimization measures.
+          </li>
+        </ul>
+
         <p className="font-medium">Bank of New England, Salem, NH</p>
         <p>Teller</p>
         <p className="text-gray-500">August 2024 - Present</p>
@@ -125,8 +165,8 @@ export default function ResumePage() {
         SKILLS & ACHIEVEMENTS
       </h3>
       <p className="mt-2 text-gray-500">
-        HTML5 | CSS3 | Tailwind | JavaScript | React | Next.js | PostgreSQL |
-        Version Control (GitHub)
+        AWS | Terraform | Python | React | TypeScript | Tailwind | PostgreSQL |
+        MySQL
       </p>
 
       <h3 className="mt-6 text-lg font-semibold">Projects</h3>
@@ -140,7 +180,8 @@ export default function ResumePage() {
           https://chatter-one-brown.vercel.app
         </Link>
         <p className="text-gray-500">
-          Full-stack web application that enables users to have conversations about anything. Features OAuth 2.0 login with Google
+          Full-stack web application that enables users to have conversations
+          about anything. Features OAuth 2.0 login with Google
         </p>
 
         <p class="font-medium mt-4">Cruise Control</p>

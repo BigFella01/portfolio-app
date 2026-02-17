@@ -1,13 +1,13 @@
 import Image from "next/image";
 import HeroGraphic from "../../public/images/react-native-programmer.svg";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
-import { RiNextjsFill } from "react-icons/ri";
 import { SiPostgresql } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
+import { SiTerraform } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 import styles from "../app/component-styles/iconStyles.module.css";
 
 export default function Home() {
@@ -29,14 +29,14 @@ export default function Home() {
       <div className="px-12 py-12 pb-16 my-8 max-w-[1024px] w-full mx-auto">
         <h1 className="text-6xl mb-8 text-center">Skills</h1>
         <div className="flex justify-center gap-4 flex-wrap">
-          <FaHtml5 className={styles.iconLarge} />
-          <FaCss3Alt className={styles.iconLarge} />
+          <FaAws className={styles.iconLarge} />
+          <SiTerraform className={styles.iconLarge} />
+          <FaPython className={styles.iconLarge} />
+          <FaReact className={styles.iconLarge} />
           <BiLogoTypescript className={styles.iconLarge} />
           <RiTailwindCssFill className={styles.iconLarge} />
-          <FaReact className={styles.iconLarge} />
-          <RiNextjsFill className={styles.iconLarge} />
           <SiPostgresql className={styles.iconLarge} />
-          <FaGithub className={styles.iconLarge} />
+          <SiMysql className={styles.iconLarge} />
         </div>
       </div>
     </div>

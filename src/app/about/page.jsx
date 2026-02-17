@@ -3,33 +3,39 @@ export default function AboutPage() {
     <div className="px-8 py-8 my-8 max-w-[1024px] w-full mx-auto flex flex-col gap-8">
       <h1 className="text-purple-300 text-4xl">About Me</h1>{" "}
       <p>
-        Hello! I’m Hayden Jenkins, a passionate full-stack web developer with a
-        love for building dynamic and responsive web applications. With three
-        years of experience in building web apps, I specialize in both front-end
-        and back-end development, allowing me to bring a holistic approach to my
-        projects.
+        Hello! I’m Hayden Jenkins, a passionate cloud engineer dedicated to
+        building scalable, secure, and efficient cloud solutions that power
+        impactful applications and research. With hands-on experience in AWS,
+        Terraform, serverless architectures, and infrastructure automation, I
+        bring a full-spectrum approach to designing and optimizing cloud
+        ecosystems—from high-performance computing portals to compliance-focused
+        tools.
       </p>
       <p>
-        I am currently pursuing my Information Technology degree at the
-        University of Massachusetts Lowell, where I am refining my understanding
-        of coding and problem-solving. Since then, I’ve honed my skills in
-        languages and frameworks such as JavaScript, React, Next.js, and
-        PostgreSQL. I thrive on creating seamless user experiences while
-        ensuring robust functionality behind the scenes.
+        Through my 12-month internship-turned-full-time transition at UMass Chan
+        Medical School, I started with foundational skills and quickly delivered
+        production-level enhancements to the institution's cloud environment.
+        Highlights include rebuilding the HPC Portal as a cloud-native, scalable
+        solution for reliable researcher access; improving the AWS Billing App's
+        logic, functionality, and UX; and contributing to Amandla, a serverless
+        full-stack tool that automates sensitive language detection in grant
+        proposals to ensure federal compliance and streamline approvals.
       </p>
       <p>
-        I believe in the power of collaboration and am always eager to learn
-        from others. Whether it’s working in a team or tackling a solo project,
-        I take pride in delivering high-quality code that meets the needs of
-        users and clients alike.
+        I thrive on turning complex challenges into reliable, automated
+        systems—whether it's infrastructure as code, cost optimization, or
+        integrating emerging tech like AI-driven workflows. Collaboration is at
+        the heart of what I do; I enjoy working across teams to deliver
+        high-quality, user-focused outcomes that drive real value.
       </p>
       <p>
-        When I’m not coding, you can find me playing Call of Duty, throwing the
-        baseball, or exploring the latest trends in technology. I’m excited
-        about the future of web development and am always looking for new
-        challenges that push my boundaries.
+        Outside of cloud engineering, you'll find me gaming (Call of Duty is a
+        favorite), playing baseball, or diving into the latest in cloud trends,
+        DevOps practices, and emerging technologies. I'm excited about the
+        evolving world of cloud computing and always up for new challenges that
+        push innovation and performance boundaries.
       </p>
-      <p>Let’s connect and bring your ideas to life!</p>
+      <p>Let’s connect and build something powerful together!</p>
     </div>
   );
 }
